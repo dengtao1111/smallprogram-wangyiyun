@@ -1,0 +1,85 @@
+.content {
+    height: 730rpx;
+}
+
+.name {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 13px;
+}
+
+.play {
+    width: 100rpx;
+    height: 100rpx;
+    position: absolute;
+    top: 429px;
+    left: 157px;
+}
+
+.name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    width: 250px;
+    position: absolute;
+    top: 350px;
+    margin-left: 55px;
+}
+
+.content-bg {
+    position: relative;
+}
+
+.bg {
+    width: 750rpx;
+    height: 1500rpx;
+    z-index: -1;
+    opacity: .4;
+}
+
+.img-bg {
+    position: absolute;
+    top: 22%;
+    left: 24%;
+    width: 360rpx;
+    height: 360rpx;
+    border-radius: 50%;
+    z-index: 13;
+}
+
+@keyframes one {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    25% {
+        transform: rotate(90deg)
+    }
+
+    50% {
+        transform: rotate(180deg)
+    }
+
+    75% {
+        transform: rotate(270deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.one {
+    animation: one 5s infinite linear;
+    animation-play-state: running;
+
+}
+
+.pause {
+    animation: one 5s infinite linear;
+    animation-play-state: paused;
+}

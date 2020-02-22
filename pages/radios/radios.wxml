@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="title">
+        <text class="show">推荐节目</text>
+    </view>
+    <view class="item" wx:for="{{programs}}" bind:tap="handleClick" data-id="{{item.id}}">
+        <image class="pic" src="{{item.coverUrl}}"></image>
+        <view class="info">
+            <text class="name">{{item.name}}</text>
+            <text class="radio">{{item.radio.name}}</text>
+            <text class="play">播放{{item.listenerCount}}</text>
+            <text class="good">赞{{item.likedCount}}</text>
+            <text class="label">{{item.radio.category}}</text>
+        </view>
+    </view>
+</view>

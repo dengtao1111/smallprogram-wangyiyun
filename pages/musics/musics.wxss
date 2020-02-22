@@ -1,0 +1,56 @@
+.top{
+    margin-top: 20px;
+    display: flex;
+    padding: 0 20px;
+}
+.pic image{
+    width: 250rpx;
+    height: 250rpx;
+}
+.album-info{
+    display: flex;
+    flex-flow: column;
+    margin-left: 20px;
+}
+.name{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.singer{
+    margin-top: 15px;
+}
+.time{
+    margin-top: 6px;
+}
+.detail{
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.songs{
+    padding: 0 20px;
+    margin-top: 30px;
+}
+.list{
+    border-bottom: 2px solid #c20c0c;
+    padding: 0 20px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.play image{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+.content{
+    display: flex;
+    flex-flow: column;
+}
+.singer-name{
+    font-size: 15px;
+}
+.num{
+    margin-top: 8px;
+}

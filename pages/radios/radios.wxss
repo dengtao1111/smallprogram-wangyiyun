@@ -1,0 +1,55 @@
+.container{
+    padding: 0 10px;
+}
+.title {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid #c20c0c;
+}
+
+.item {
+    display: flex;
+    margin-top: 15px;
+}
+
+.pic {
+    width: 220rpx;
+    height: 220rpx;
+}
+
+.info {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    width: 400rpx;
+    margin-left: 10px;
+}
+.name {
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-weight: bold;
+}
+.radio{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.play{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.good{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.label{
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid #333333;
+}

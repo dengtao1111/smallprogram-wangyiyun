@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="item">
+        <view class="content">
+            <view class="content-bg">
+                <image class="bg" src="{{program.blurCoverUrl}}"></image>
+            </view>
+            <image class="img-bg {{isPlay?'pause':'one'}}" src="{{program.coverUrl}}"></image>
+            <text class="name">{{program.mainSong.name}}</text>
+            <image class="play" src="{{isPlay?'/images/pause.png':'/images/play.png'}}" bind:tap="handleClick"></image>
+        </view>
+    </view>
+</view>

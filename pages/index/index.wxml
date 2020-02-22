@@ -1,0 +1,10 @@
+<view class="title">
+  <text>新碟上架</text>
+</view>
+<view class="container">
+    <view class="item" wx:for="{{albums}}" bind:tap="handleClick" data-id="{{item.id}}">
+      <image class="pic" src="{{item.picUrl}}"></image>
+      <text class="songs">{{item.name}}</text>
+      <text class="singer">{{item.artist.name}}</text>
+    </view>
+</view>

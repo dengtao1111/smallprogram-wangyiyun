@@ -1,0 +1,25 @@
+<view class="container">
+    <view class="top">
+        <view class="pic">
+            <image class="" src="{{album.picUrl}}"></image>
+        </view>
+        <view class="album-info">
+            <text class="name">{{album.name}}</text>
+            <text class="singer">歌手：{{album.artist.name}}</text>
+            <text class="time">发行时间：{{album.publishTime}}</text>
+        </view>
+    </view>
+    <view class="detail">
+        简介：{{album.description}}
+    </view>
+    <view class="songs">
+      <view class="list"><text>歌曲列表</text></view>
+        <view class="item">
+            <text class="num">1</text>
+            <view class="content"><text class="song-name">{{album.name}}</text>
+                <text class="singer-name">{{album.artist.name}}-{{album.name}}</text>
+            </view>
+            <view class="play"><image class="" src="/images/pause.png"></image></view>
+        </view>
+    </view>
+</view>
